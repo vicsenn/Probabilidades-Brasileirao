@@ -1,7 +1,7 @@
 ############################################################################################################################################################################
 #
 # ROTINA PARA GERAR PROBABILIDADES DOS CAMPEÕES NO BRASILEIRÃO SÉRIE A
-# Scripts para Calcular as Probabilidades de Vitória dos jogadores 
+# Scripts para Calcular as Probabilidades de Vitória dos times 
 #
 # Rotina em R
 #
