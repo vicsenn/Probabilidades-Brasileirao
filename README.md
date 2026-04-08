@@ -1,23 +1,22 @@
 ############################################################################################################################################################################
 #
-# ROTINA PARA GERAR PROBABILIDADES DOS CAMPEÕES EM CAMPEONATOS DE XADREZ FORMATO SUÍÇO
+# ROTINA PARA GERAR PROBABILIDADES DOS CAMPEÕES NO BRASILEIRÃO SÉRIE A
 # Scripts para Calcular as Probabilidades de Vitória dos jogadores 
 #
 # Rotina em R
 #
 # AUTOR: VICTOR MAIA S. DELGADO (UFOP)
 # e-mail: victor.delgado@ufop.edu.br (Victor)
-# DATA da última versão: 24/02/2024
-# CPU:      ACER Aspire E5-573G; processor i7-5500U @ 2.40GHz, RAM: 8.0 GB
-# Versão R: 4.3.1(x64) 
+# DATA da última versão: 08/04/2026
+# CPU: ASUS; processor intel i5 12th Gen Intel© Core™ i5-12400F × 6, @ 2.40GHz, RAM: 32.0 GB
+# Versão R: 4.5.2(x64) "[Not] Part in a Rumble"
 #
 # OBS.1: 
-#   Essa Rotina foi gerada primordialmente no R 4.3.1 para Linux Mint (Una-MATE), 64 Bits, para rodá-la em outros SOs alguns detalhes devem ser observados.
+#   Essa Rotina foi gerada primordialmente no R 4.5.2 para Linux Mint 22.3 (Zena), 64 Bits, para rodá-la em outros SOs alguns detalhes devem ser observados.
 # OBS.2:
-#   As probabilidades de vitória foram calculadas segundo a logística ELO com E_b = Q_b/(Q_b + k + Q_p) e Q_b = 10^(R_b/400)
-#   E_b expectativa de vitória das Brancas e Q_b para conta auxiliar.
-#   O k é um parâmetro para os empates.
-#   Com os Ratings de Peçanha CXP.
-#   O mesmo pode ser feito para E_p e Q_p paras pretas
+#
+#   Deixando aqui apenas o cálculo naïve. Em ocasiões anteriores eu havia feito um código com probabilidades diferentes de vitórias para os diferentes times.
+#   Isso funciona melhor nas rodadas finais do campeonato, nas demais fases resultados de Vitória, Empate e Derrota equiprováveis são boas o suficiente.
+#   Além de acrescentarem uma variabilidade boa e próxima de uma incerteza correta para campeonatos de futebol.
 #
 ###################################################################################################################################################################
